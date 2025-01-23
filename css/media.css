@@ -1,0 +1,30 @@
+@media only screen and (max-width: 575px){
+    .location{
+        font-size: 12px;
+    }
+
+    
+    .card-body{
+         font-size:7px;
+    }
+   
+}
+@media (min-width:576px) and (max-width:1199px) {
+    .card-body{
+        font-size:10px;
+        
+   }
+   .location{
+    font-size: 28px;
+   
+   }
+}
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1920px;
+    }
+    .card-body{
+        font-size:15px;
+        
+   }
+}

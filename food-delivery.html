@@ -5,8 +5,713 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
-<body>
-    
+<body >
+    <header >
+         <!-- header part 1 -->
+      <div class="container-fluid" >
+          <div class="container Object shadow 1 Object shadow 1 ">
+            <div class="row text-center; align-items-center justify-content-space-between">
+                <figure class="col-lg-3 col-sm-12  text-lg-start text-center text-align-sm-center px-sm-5 mx-sm-4" >
+                    <img src="assets/header_logo.png" alt="">
+                </figure>
+                <div class="col-lg-5  col-sm-12  col-xs-12 my-3 mb-0 fs-6 d-flex justify-content-center location">
+                    <div> <p class="fw-semibold mx-2 "> Deliver to:  </p></div>
+                    <div> <i class="fa-solid fa-location-dot mx-2"></i></div>
+                    <div> <p class="fw-normal">Current Location</p></div>
+                    <div><p class="fw-semibold">Mohammadpur Bus stand, Dhaka  </p></div>
+                </div>
+                <div class="col-lg-3 col-sm-12 col-12 pb-2 "style="display: flex;">
+                    
+                    <button type="button" class="btn btn-outline-none   col-sm-6  col-xs-12" ><i class="fa-solid fa-magnifying-glass col" style="color: #FFB30E;"> </i> <b>Search Food</b></button>
+                    <button type="button" class="btn btn-outline-warning   col-sm-6 col-xs-12" style="border: none;box-shadow: 0px 20px 40px 0px #FFAE004A; box-shadow: 0px 5px 10px 0px #FFAE0042;"><i class="fa-solid fa-user"></i> Login</button>
+
+                </div> 
+            </div>
+          </div>
+
+       </div> 
+    </header>
+
+    <!-- page 1 -->
+   <section>
+    <div class="container-fluid  my-0 mx-0" >
+      <div class="container py-0 px-0 border-radius-0px"  >
+
+
+        <div class="row">
+          <div class="col page-1 " >
+
+
+            <div class="card text-bg-dark">
+              <img src="assets/pg1-img.png" class="card-img" alt="..." style="border: none;">
+              <div class="card-img-overlay py-5 my-4 mx-4 px-4">
+                <h1 class="card-title mx-5" style="font-size:88px; font-weight: 700;">Are you starving?</h1>
+                <p class="card-text mx-5" style="color: #504F4F; font-size: 22px;">Within a few clicks, find meals that are accessible near you</p>
+
+
+
+                <div class="card text-center col-lg-6 mx-5 " style="border-radius: 16px; background-color:#ffffff ;">
+                  <div class="card-header my-3 mx-3" style="background-color: #ffffff; border: none; border-radius: 16px;">
+                    <ul class="nav nav-pills  card-header-pills">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#" style="background-color:#F172281A;color: #F17228; font-weight: 700;"><i class="fa-solid fa-bicycle"></i> Delivery</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true" style="font-weight: 700;"><i class="fa-solid fa-bag-shopping"></i> Pickup</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-body ms-3" style="display: flex;">
+                    <div class="col-8">
+                      <label for="inputPassword2" class="visually-hidden"> Enter Your Address</label>
+                      <input type="password" class="form-control py-3 px-2 " id="inputPassword2" placeholder=" Enter Your Address" style=" background-color: #F5F5F5; border: none;">
+                    </div>
+                    <div class="col-4">
+                      <button type="submit" class="btn btn-primary mb-2 px-5 py-3 " style="background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);border: none; font-weight: 700;"><i class="fa-solid fa-magnifying-glass pe-2"></i>  Find Food </button>
+                    </div>
+                  </div>
+                </div>
+
+           
+
+              </div>
+            </div>
+
+
+            
+
+            
+            
+          </div>
+        </div>
+
+
+      </div>
+    </div>  
+  </section>
+
+    <!-- page 2 -->
+
+    <section>
+        <div class="container-fluid my-0 mx-0">
+            <div class="container my-4 py-4 px-4">
+                <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 row-cols-2 g-2 my-4 mx-4 pg-2-row ">
+                    <div class="col">
+                        <div class="card border-radius-3px">
+                          <img src="assets/pg-2.1.png" class="border-radius-3px card-img-top" alt="...">
+                          <div class="card-body px-0">
+                            <h5 class="card-title pb-2"><b>Greys Vage</b></h5>
+                            <b class="btn-pg1 "> 6 Days Remaining</b>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card border-radius-3px">
+                          <img src="assets/pg-2.2.png" class="border-radius-3px card-img-top" alt="...">
+                          <div class="card-body px-0">
+                            <h5 class="card-title pb-2"><b>Greys Vage</b></h5>
+                            <b class="btn-pg1 "> 6 Days Remaining</b>
+                          </div>
+                        </div>   
+                    </div>
+                    <div class="col">
+                        <div class="card border-radius-3px">
+                          <img src="assets/pg-2.3.png" class="border-radius-3px card-img-top" alt="...">
+                          <div class="card-body px-0">
+                            <h5 class="card-title pb-2"><b>Greys Vage</b></h5>
+                            <b class="btn-pg1 "> 6 Days Remaining</b>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-radius-3px">
+                          <img src="assets/pg-2.4.png" class="border-radius-3px card-img-top" alt="...">
+                          <div class="card-body px-0">
+                            <h5 class="card-title pb-2"><b>Greys Vage</b></h5>
+                            <b class="btn-pg1 "> 6 Days Remaining</b>
+                          </div>
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- page 3 -->
+
+    <section class="container-fluid">
+      <div class="container mb-4">
+          <div class="col mb-4 pb-2" style="text-align: center;">
+            <b class="fs-1 " style="color: #F17228; ">How does it works</p>
+          </div>
+
+          <div class="row row-cols-2 row-cols-md-4 row-cols-sm-2 ">  
+
+            <div class="col" style="text-align: center;">
+              <div class="card border-radius-3px">
+                  <i class="fa-solid fa-location-dot" style="color: #FFAE00; font-size: 70px;"></i>
+                <div class="card-body px-0">
+                    <h5 class="card-title pb-2"><b>Select location</b></h5>
+                    <p>Choose the location where your <br>food will be deliverd</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" style="text-align: center;">
+              <div class="card border-radius-3px">
+                  <i class="fa-solid fa-bell" style="color: #FFAE00; font-size: 70px;"></i>
+                <div class="card-body px-0">
+                    <h5 class="card-title pb-2"><b>Choose order</b></h5>
+                    <p>Check over hundreds of menus to <br>pick your favorite food</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" style="text-align: center;">
+              <div class="card border-radius-3px">
+                  <i class="fa-solid fa-file-invoice-dollar" style="color: #FFAE00; font-size: 70px;"></i>
+                <div class="card-body px-0">
+                    <h5 class="card-title pb-2"><b>Pay advanced</b></h5>
+                    <p>CIt's quick, safe, and simple. Select <br>several methods of payment</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col" style="text-align: center;">
+              <div class="card border-radius-3px">
+                  <i class="fa-solid fa-circle-user" style="color: #FFAE00; font-size: 70px;"></i>
+                <div class="card-body px-0">
+                    <h5 class="card-title pb-2"><b>Enjoy meals</b></h5>
+                    <p>Food is made and delivered directly <br> to your home.</p>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+      </div>
+    </section>  
+ <!-- page 4 -->
+
+ <section>
+    <div class="container-fluid">
+        <div class="container">
+
+            <div class="col mb-4 pb-2" style="text-align: center;">
+              <b class="fs-1 " style="color:#212121; ">Popular items</p>
+            </div>
+
+            <div class="row row-cols-md-3 row-cols-sm-2 row-cols-2">
+              <div class="col">
+                <div class="card border-radius-3px">
+                  <img src="assets/pg-2.1.png" class="border-radius-3px card-img-top" alt="...">
+                  <div class="card-body px-0">
+                    <h5 class="card-title "><b style="color:#424242; font-size: 15px;">Cheese Burger</b></h5>
+                    <div class="pb-2" style="color: #FFB30E; font-size: 13px; font-weight: 500;">
+                      <i class="fa-solid fa-location-dot" ></i>
+                      <span>Burger Arena</span>
+                    </div>
+                    <p class="py-0 mb-2">$3.83</p>
+                    <button class="btn-pg4 col-12" style="height: 40px; background-color: #F17228;border: none; border-radius: 8px; color: #ffffff;"> Order Now</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card border-radius-3px">
+                  <img src="assets/pg-2.1.png" class="border-radius-3px card-img-top" alt="...">
+                  <div class="card-body px-0">
+                    <h5 class="card-title "><b style="color:#424242; font-size: 15px;">Cheese Burger</b></h5>
+                    <div class="pb-2" style="color: #FFB30E; font-size: 13px; font-weight: 500;">
+                      <i class="fa-solid fa-location-dot" ></i>
+                      <span>Burger Arena</span>
+                    </div>
+                    <p class="py-0 mb-2">$3.83</p>
+                    <button class="btn-pg4 col-12" style="height: 40px; background-color: #F17228;border: none; border-radius: 8px; color: #ffffff;"> Order Now</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card border-radius-3px">
+                  <img src="assets/pg-2.1.png" class="border-radius-3px card-img-top" alt="...">
+                  <div class="card-body px-0">
+                    <h5 class="card-title "><b style="color:#424242; font-size: 15px;">Cheese Burger</b></h5>
+                    <div class="pb-2" style="color: #FFB30E; font-size: 13px; font-weight: 500;">
+                      <i class="fa-solid fa-location-dot" ></i>
+                      <span>Burger Arena</span>
+                    </div>
+                    <p class="py-0 mb-2">$3.83</p>
+                    <button class="btn-pg4 col-12" style="height: 40px; background-color: #F17228;border: none; border-radius: 8px; color: #ffffff;"> Order Now</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card border-radius-3px">
+                  <img src="assets/pg-2.1.png" class="border-radius-3px card-img-top" alt="...">
+                  <div class="card-body px-0">
+                    <h5 class="card-title "><b style="color:#424242; font-size: 15px;">Cheese Burger</b></h5>
+                    <div class="pb-2" style="color: #FFB30E; font-size: 13px; font-weight: 500;">
+                      <i class="fa-solid fa-location-dot" ></i>
+                      <span>Burger Arena</span>
+                    </div>
+                    <p class="py-0 mb-2">$3.83</p>
+                    <button class="btn-pg4 col-12" style="height: 40px; background-color: #F17228;border: none; border-radius: 8px; color: #ffffff;"> Order Now</button>
+                  </div>
+                </div>
+              </div>
+
+            
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!-- page 5 -->
+   <section>
+    <div class="container-fluid my-0 mx-0">
+      <div class="container my-4 py-4 px-4 ">
+
+        <div class="col mb-md-4 pb-md-2 mb-sm-1 pd-sm-1" style="text-align: center;">
+          <b class="fs-1 " style="color:#212121; ">Featured Restaurants</p>
+        </div>
+
+
+          <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 row-cols-1 g-4 my-md-4 my-sm-2 mx-4 pg-2-row ">
+            <div class="col">
+                <div class="card border-radius-3px">
+                  <img src="assets/pg-6.1-img.png" class="border-radius-3px card-img-top" alt="...">
+
+                  <div class="card-body ">
+                    <div class="my-3 py-4 " style="display: flex; ">
+                      <img src="assets/pg-6.1-icon.png" class="rounded float-start" alt="...">
+                      <div class="py- px-4">
+                          <p class="fs-lg-2 fs-sm-4" style="display: flex; ">FoodWord</p>
+                          <i class="fa-solid fa-star px-2 py-sm-0 fs-lg-1 fs-sm-4" style="color:#FFB30E ;  font-weight: 600;"><span class="px-2 fs-lg-1 fs-sm-4">46</span></i>
+                          
+                      </div>
+                    </div>
+                        <b class="btn-pg1 px-4 py-3 fs-lg-1 fs-sm-4" style=" font-weight:800; border-radius: 26px;"> Opens tomorrow</b>
+                  </div>
+                </div>
+            </div>
+        
+            
+
+            <div class="col">
+              <div class="card border-radius-3px">
+                <img src="assets/pg-6.1-img.png" class="border-radius-3px card-img-top" alt="...">
+
+                <div class="card-body ">
+                  <div class="my-3 py-4 " style="display: flex; ">
+                    <img src="assets/pg-6.1-icon.png" class="rounded float-start" alt="...">
+                    <div class="py- px-4">
+                        <p class="fs-lg-2 fs-sm-4" style="display: flex; ">FoodWord</p>
+                        <i class="fa-solid fa-star px-2 py-sm-0 fs-lg-1 fs-sm-4" style="color:#FFB30E ;  font-weight: 600;"><span class="px-2 fs-lg-1 fs-sm-4">46</span></i>
+                        
+                    </div>
+                  </div>
+                      <b class="btn-pg1 px-4 py-3 fs-lg-1 fs-sm-4" style=" font-weight:800; border-radius: 26px;"> Opens tomorrow</b>
+                </div>
+              </div>
+          </div>
+
+        
+
+
+
+
+          </div>
+          <div style="text-align: center;">
+            <button type="button" class="px-5 py-4" style=" font-size: 22px; color: #ffffff;border: none; border-radius: 8px; background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);  ">View All
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
+        
+      </div>
+  </div>
+   </section>
+
+
+<!-- page 6 -->
+    <section >
+      <div class="container-fluid" >
+        <div class="container" style="background-color: #FEFAF1;">
+
+         <div class="row px-4 mx-4">
+          <div class="col  my-4 pb-2" style=" display:flex ;justify-content: space-between;">
+            <p class="fs-1 " style="color:#212121; ">Search by Food</p>
+              <div class="py-0" style="display: flex;justify-content: right;align-items: center; color:#FFB30E ;">
+                <p class="pt-3" style="font-size: large; font-weight: 400; ">View All<i class="fa-solid fa-chevron-right"></i> </p>
+              <div class="py-0 mx-2 my-1 mt-0">
+                <i class="fa-solid fa-circle-chevron-left"></i>
+                <i class="fa-solid fa-circle-chevron-right"></i></div>
+              </div>
+          </div>
+         
+         </div>
+  
+          <div class="row row-cols-md-6 row-cols-sm-3 mx-4">
+
+            <div class="col">
+              <div class="card border-radius-3px" style="background: transparent;">
+                <img src="assets/pg-2.1.png" class=" card-img-top" alt="..." style="border-radius: 100%;">
+                <div class="card-body px-0 " style="text-align: center;" >
+                  <h5 class="card-title pb-2"><b>Greys Vage</b></h5>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-radius-3px" style="background: transparent;">
+                <img src="assets/pg-2.1.png" class=" card-img-top" alt="..." style="border-radius: 100%;">
+                <div class="card-body px-0 " style="text-align: center;" >
+                  <h5 class="card-title pb-2"><b>Greys Vage</b></h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-radius-3px" style="background: transparent;">
+                <img src="assets/pg-2.1.png" class=" card-img-top" alt="..." style="border-radius: 100%;">
+                <div class="card-body px-0 " style="text-align: center;" >
+                  <h5 class="card-title pb-2"><b>Greys Vage</b></h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-radius-3px" style="background: transparent;">
+                <img src="assets/pg-2.1.png" class=" card-img-top" alt="..." style="border-radius: 100%;">
+                <div class="card-body px-0 " style="text-align: center;" >
+                  <h5 class="card-title pb-2"><b>Greys Vage</b></h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-radius-3px" style="background: transparent;">
+                <img src="assets/pg-2.1.png" class=" card-img-top" alt="..." style="border-radius: 100%;">
+                <div class="card-body px-0 " style="text-align: center;" >
+                  <h5 class="card-title pb-2"><b>Greys Vage</b></h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-radius-3px" style="background: transparent;">
+                <img src="assets/pg-2.1.png" class=" card-img-top" alt="..." style="border-radius: 100%;">
+                <div class="card-body px-0 " style="text-align: center;" >
+                  <h5 class="card-title pb-2"><b>Greys Vage</b></h5>
+                </div>
+              </div>
+            </div>
+          
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- page 7 -->
+
+    <section >
+      <div class="container-fluid">
+        <div class="container" style="background-color:#FEEFD0 ;">
+
+
+          <div class="row mx-5">
+            <div class="col mx-5 my-5" >
+
+              <div class="card col-md-10  mx-5 my-4 " style= "  border-radius: 46px; display: flex; justify-content: center; align-items: center;">
+                <div class="card-body mx-5" style="display: flex; ">
+
+                   <div class="py-3 px-3" style=" display: flex;color: #FFBB00; font-size: 42px;">
+                    <i class="fa-solid fa-tags px-3 py-4" style="font-size: 92px;"></i>
+                    <p >Daily <br> discounts</p>
+                   </div>
+
+                   <div class="vr mx-5"></div>
+
+                   <div class="py-3 px-3" style=" display: flex;color: #FFBB00; font-size: 42px;">
+                    <i class="fa-solid fa-location-dot px-3 py-4" style="font-size: 92px;"></i>
+                    <p >Live <br> location</p>
+                   </div>
+
+                   <div class="vr mx-5"></div>
+
+                   <div class="py-3 px-3" style=" display: flex;color: #FFBB00; font-size: 42px;">
+                    <i class="fa-regular fa-clock px-3 py-4" style="font-size: 92px;"></i>
+                    <p >Quick <br> delivery</p>
+                   </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+       
+
+
+          <div style="display: flex;">
+            <div class="col-12 " style="display: flex;">
+              <img src="assets/pg-7-img.png" alt="" class="col-7">
+              <div class="col-8  my-5 py-5 "  >
+                <h1 class="pt-5 " style="font-size: 88px; font-weight: 700; color: #ffba00;">Install the app</h1>
+                <p style="font-size: 18px; font-weight: 400; color: #827e7e;">It's never been easier to order food. Look for the <br> finest discounts and you'll be lost in a world of <br> delectable food.</p>
+                <div >
+                  <div class="d-grid gap-2 d-md-block">
+                    <button class="btn btn-primary me-2 px-3" type="button" style="background-color: #ffffff ;font-size: 25px; border: none;color: #212121; box-shadow: 0px 20px 40px 0px #FFAE004A;box-shadow: 0px 5px 10px 0px #FFAE0042;"><i class="fa-brands fa-google-play" style="color:#F17228 ;"></i> Google Play</button>
+                    <button class="btn btn-primary px-3" type="button"  style="background-color: #ffffff ;font-size: 25px; border: none;color: #212121; box-shadow: 0px 20px 40px 0px #FFAE004A;box-shadow: 0px 5px 10px 0px #FFAE0042;"><i class="fa-brands fa-apple" style="color:#F17228 ;"></i> App Store</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- page 8 -->
+    <section>
+      <div class="container-fluid">
+        <div class="container py-5">
+
+          <div class="row py-5 my-4">
+            <div class="col row-col-12"   >
+              
+              <div class="card mx-4 " style="box-shadow: 0px 27px 82px 0px #7C7C7C47;box-shadow: 5px 14px 15px 0px #7C7C7C0F;">
+                <div class="row row-cols-md-2 row-cols-sm-2 ">
+               
+                  <div class="col " style="display: flex; align-items: center; ">
+                    
+                    <div class="card-body row-cols-md-2 row-cols-sm-2" >
+                      <h1 class="card-title py-4" style="color: #353535; font-size: 54px; font-weight: 700;">Best deals <span style="color:#ffba00 ;"> Crispy <br> Sandwiches</span></h1>
+                      <p class="card-text pb-3" style="color:#616161 ; font-size: 19px; font-weight: 600;">Enjoy the large size of sandwiches. Complete <br> perfect slice of sandwiches.</p>
+                        <div class="py-5">
+                          <button class="px-5 py-3" style=" border: none; border-radius:10px ;color: #FEFAF1 ; font-weight: 600; background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%); box-shadow: 14px 14px 32px 14px #FFB20E4A;box-shadow: 0px 5px 8px 0px #DE97003D; "><span class="px-5" style="font-size: medium;">PROCEED TO ORDER<i class="fa-solid fa-chevron-right"></i> </span></button>
+                        </div>
+                    </div>
+
+                  </div>   
+                  <div class="col-">
+                    <img src="assets/pg-8.1.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                </div>       
+              </div>
+
+
+            </div>            
+          </div>
+
+          
+          <div class="row py-5 my-4">
+            <div class="col row-col-12" >
+              
+              <div class="card  mx-4"  style="box-shadow: 0px 27px 82px 0px #7C7C7C47;box-shadow: 5px 14px 15px 0px #7C7C7C0F; " >
+                <div class="row row-cols-md-2 row-cols-sm-2 ">
+                  <div class="col-8">
+                    <img src="assets/pg-8.1.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col " style="display: flex; align-items: center; ">
+                    
+                    <div class="card-body row-cols-md-2 row-cols-sm-2" >
+                      <h1 class="card-title py-4" style="color: #353535; font-size: 54px; font-weight: 700;">Best deals <span style="color:#ffba00 ;"> Crispy <br> Sandwiches</span></h1>
+                      <p class="card-text pb-3" style="color:#616161 ; font-size: 19px; font-weight: 600;">Enjoy the large size of sandwiches. Complete <br> perfect slice of sandwiches.</p>
+                        <div class="py-5">
+                          <button class="px-5 py-3" style=" border: none; border-radius:10px ;color: #FEFAF1 ; font-weight: 600; background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%); box-shadow: 14px 14px 32px 14px #FFB20E4A;box-shadow: 0px 5px 8px 0px #DE97003D; "><span class="px-5" style="font-size: medium;">PROCEED TO ORDER<i class="fa-solid fa-chevron-right"></i> </span></button>
+                        </div>
+                    </div>
+
+                  </div>   
+                </div>       
+              </div>
+
+
+            </div>            
+          </div>
+
+          
+          <div class="row py-5 my-4">
+            <div class="col row-col-12"  >
+              
+              <div class="card mx-4"style="box-shadow: 0px 27px 82px 0px #7C7C7C47;box-shadow: 5px 14px 15px 0px #7C7C7C0F; "  >
+                <div class="row row-cols-md-2 row-cols-sm-2 ">
+                 
+                  <div class="col " style="display: flex; align-items: center; ">
+                    
+                    <div class="card-body row-cols-md-2 row-cols-sm-2" >
+                      <h1 class="card-title py-4" style="color: #353535; font-size: 54px; font-weight: 700;">Best deals <span style="color:#ffba00 ;"> Crispy <br> Sandwiches</span></h1>
+                      <p class="card-text pb-3" style="color:#616161 ; font-size: 19px; font-weight: 600;">Enjoy the large size of sandwiches. Complete <br> perfect slice of sandwiches.</p>
+                        <div class="py-5">
+                          <button class="px-5 py-3" style=" border: none; border-radius:10px ;color: #FEFAF1 ; font-weight: 600; background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%); box-shadow: 14px 14px 32px 14px #FFB20E4A;box-shadow: 0px 5px 8px 0px #DE97003D; "><span class="px-5" style="font-size: medium;">PROCEED TO ORDER<i class="fa-solid fa-chevron-right"></i> </span></button>
+                        </div>
+                    </div>
+
+                  </div>  
+                  <div class="col-8">
+                    <img src="assets/pg-8.1.png" class="img-fluid rounded-start" alt="...">
+                  </div>
+                </div>       
+              </div>
+
+
+            </div>            
+          </div>
+
+
+
+        </div>
+      </div>
+     </section>
+
+
+     <!-- footer -->
+
+     <section>
+      <div class="container-fluid">
+        <div class="container" style="height:400px ;  background-image: url('assets/footer_bgimg.png' ); background-size: cover;">
+          <div class="py-1">
+            <h1  style="color: white; font-weight: 900; font-size: 57px;  text-align: center;padding-top: 91px;">Are you ready to order with <br> the best deals?</h1>
+          </div>
+
+          <div class="my-5" style="text-align: center;">
+            <button type="button" class="py-3 px-4" style=" border: none; color: white; border-radius:8px ; background: linear-gradient(93.41deg, #F17228 -5.63%, #F15E28 100.8%); box-shadow: 0px 14px 32px 0px #FFB20E4A;box-shadow: 0px 5px 8px 0px #DE97003D;">Proceed to order <i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+
+
+        <div class="container" style="background-color:#212121 ; color:white ;">
+          <p  style="font-size: 22px; font-weight: 700;padding-left: 130px; padding-top: 51px; padding-bottom: 0px; ">Our top cities</p>
+          <div class="pb-5" style="display: flex; justify-content: space-around;">
+        
+            <ul  style="font-size: 18px;color: #F5F5F5; font-weight: 400; list-style-type:none; ">
+             <li>San Francisco</li>
+             <li>Miami</li>
+             <li>San Diego</li>
+             <li>East Bay</li>
+             <li>  Long Beach</li>
+            </ul>
+
+            <ul style="font-size: 18px;color: #F5F5F5; font-weight: 400;list-style-type:none;">
+              <li>San Francisco</li>
+              <li>Miami</li>
+              <li>San Diego</li>
+              <li>East Bay</li>
+              <li>  Long Beach</li>
+            </ul>    
+
+            
+            <ul style="font-size: 18px;color: #F5F5F5; font-weight: 400;list-style-type:none;">
+              <li>San Francisco</li>
+              <li>Miami</li>
+              <li>San Diego</li>
+              <li>East Bay</li>
+              <li>  Long Beach</li>
+            </ul> 
+
+          
+            <ul style="font-size: 18px;color: #F5F5F5; font-weight: 400;list-style-type:none;">
+            <li>San Francisco</li>
+            <li>Miami</li>
+            <li>San Diego</li>
+            <li>East Bay</li>
+            <li>  Long Beach</li>
+            </ul> 
+ 
+            <ul style="font-size: 18px;color: #F5F5F5; font-weight: 400;list-style-type:none;">
+            <li>San Francisco</li>
+            <li>Miami</li>
+            <li>San Diego</li>
+            <li>East Bay</li>
+            <li>  Long Beach</li>
+            </ul>
+
+          </div>
+
+          <div class="text" style="color:#424242 ; border: 2px;">
+            <hr>
+          </div>
+
+           <div style="display: flex;justify-content: space-around;">
+            <div class="px-5" style="display: flex;">
+              <ul class=" py-3" style="font-size: 18px;color: #F5F5F5; font-weight: 400; list-style-type:none; padding-right: 160px;  "> 
+                <li>San Francisco</li>
+                <li>Miami</li>
+                <li>San Diego</li>
+                <li>East Bay</li>
+                <li>  Long Beach</li>
+               </ul>
+  
+               <ul  class=" py-3" style="font-size: 18px;color: #F5F5F5; font-weight: 400; list-style-type:none; padding-right: 130px;"> 
+                <li>San Francisco</li>
+                <li>Miami</li>
+                <li>San Diego</li>
+                <li>East Bay</li>
+                <li>  Long Beach</li>
+               </ul>
+  
+               <ul  class="py-3" style="font-size: 18px;color: #F5F5F5; font-weight: 400; list-style-type:none;padding-right: 100px; "> 
+                <li>San Francisco</li>
+                <li>Miami</li>
+                <li>San Diego</li>
+                <li>East Bay</li>
+                <li>Long Beach</li>
+               </ul>
+            </div>
+
+            <div>
+              <a style="color:#F5F5F5 ;font-size: 24px;">FOLLOW US</a>
+              <div>
+                <i class="fa-brands fa-instagram" style="color: #F5F5F5; font-size: 24px;"></i>
+                <i class="fa-brands fa-facebook" style="color: #F5F5F5;font-size: 24px;"></i>
+                <i class="fa-brands fa-twitter" style="color: #F5F5F5;font-size: 24px;"></i>
+              </div>
+                <p style="font-size: 18px; font-weight: 700; color:#BBBBBB ;">Receive exclusive offers in your mailbox</p>
+             <div style="display: flex; justify-content: space-between;">
+              <div class="col-auto pe-2"  >
+                <label for="inputPassword2" class="visually-hidden">Email</label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Email"style="border: none;background-color: #424242;color: #adadad; ">
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-5" style="border: none; background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);;">Subscribe</button>
+              </div>
+             </div>
+            </div>
+          </div>
+
+          
+          <div class="text" style="color:#424242 ; border: 2px;">
+            <hr>
+          </div>
+
+          <div style="font-size: 15px; font-weight: 400; padding-bottom: 50px;">
+            <p>All rights Reserved <i class="fa-regular fa-copyright"></i> <span style="font:bold ; font-weight: 700;">Your Company, 2021</span> </p>
+          </div>
+
+        </div>
+      </div>
+     </section>
+
+     
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" ></script>
 </html>

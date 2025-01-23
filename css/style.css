@@ -1,0 +1,24 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+/* page2 */
+
+.card{
+    border: none;
+}
+
+.card-img-top{
+    border-radius: 16px;
+}
+
+.btn-pg1{
+    width:205px;
+    height: 42px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 8px 8px 8px 8px;
+    background: #F1722833;
+    color: #F17228;  
+    text-decoration: none;
+}
+
